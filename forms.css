@@ -1,0 +1,32 @@
+
+  h2{
+
+    text-align:center;
+    font-family: 'Fjalla One', sans-serif;
+
+
+  }
+
+  p {
+
+    font-family: 'Spectral SC', serif;
+
+
+  }
+   
+body {
+    background-image: url("https://www.freepptbackgrounds.net/wp-content/uploads/2015/01/Sport-Car-PPT-Backgrounds-800x600.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+   }
+
+  tr, td{
+
+  }
+
+  table, tr, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  font-family: 'Spectral SC', serif;
+
+}

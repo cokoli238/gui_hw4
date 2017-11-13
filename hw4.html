@@ -1,0 +1,43 @@
+<!--
+ Christian Okoli
+ Nov 12, 2017
+ HW 4
+ GUI Programming I
+ ID: 01407062
+-->
+<!doctype html>
+<html lang="en">
+<head>
+ <title>Dynamic Forms</title>
+ <meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="forms.css">
+<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+
+ </head>  
+ <body>
+ <script src="dynamic.js"></script>
+<h2>Dynamic Forms - HW4 </h2>
+
+<p> How many prices do you want to compare?<br>
+	Number of Prices <input type="text" id="price" placeholder="$"> <br>
+</p>
+<p> How many MPGs do you want to compare?<br>
+  Number of MPGs <input type="text" id="mpg" placeholder="$"> <br>
+</p>
+
+ <form id="myForm">
+ <div>
+      <input type="button" value="Create Table" onclick="createTable()"/>
+   </div>
+<div id="container">
+    </div>  
+</form>
+<input type="button" value="Validate" onclick="display()"/>
+
+  
+</body> 
+</html>
+ 
